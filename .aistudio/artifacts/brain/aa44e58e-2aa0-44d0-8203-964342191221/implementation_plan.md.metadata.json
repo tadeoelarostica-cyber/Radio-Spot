@@ -1,0 +1,6 @@
+{
+  "summary": "Implementation plan for upgrading the Radio Spot Generator voice engine to Gemini 3.8 Flash TTS, adding Custom Voice Persona design, Expressive Vocal Cue tag insertion, and an AI Commercial Script Generator backed by a server-side Express API.",
+  "updatedAt": "2026-11-06T01:53:35.302646130Z",
+  "requestFeedback": true,
+  "userFacing": true
+}

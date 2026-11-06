@@ -1,0 +1,10 @@
+{
+  "name": "Radio Spot Generator",
+  "description": "Generate energetic radio commercial spots using Gemini TTS.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

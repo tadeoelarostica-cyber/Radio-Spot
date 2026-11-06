@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Radio Spot Generator — Broadcast Voice Studio</title>
+    <meta name="description" content="Generate expressive radio commercial spots with custom voice personas, vocal cues, and AI scriptwriting." />
+    <meta property="og:title" content="Radio Spot Generator — Broadcast Voice Studio" />
+    <meta property="og:description" content="Generate expressive radio commercial spots with custom voice personas, vocal cues, and AI scriptwriting." />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Plus Jakarta Sans', 'sans-serif'],
+              display: ['Plus Jakarta Sans', 'sans-serif'],
+              mono: ['JetBrains Mono', 'monospace'],
+            },
+            colors: {
+              studio: {
+                bg: '#090D16',
+                surface: '#111827',
+                panel: '#161F30',
+                border: 'rgba(255, 255, 255, 0.08)',
+                crimson: '#E11D48',
+                crimsonHover: '#F43F5E',
+              }
+            }
+          },
+        },
+      }
+    </script>
+    <style>
+      body {
+        background-color: #090D16;
+        color: #F1F5F9;
+        font-family: 'Plus Jakarta Sans', sans-serif;
+      }
+      .tabular-nums {
+        font-variant-numeric: tabular-nums;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
